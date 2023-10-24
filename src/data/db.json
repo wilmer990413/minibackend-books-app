@@ -1,236 +1,152 @@
 {
-    "library": [
+    "vuelos": [
         {
-            "book": {
-                "title": "El Señor de los Anillos",
-                "pages": 1200,
-                "genre": "Fantasía",
-                "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1566425108i/33.jpg",
-                "synopsis": "Una aventura épica en un mundo de fantasía llamado la Tierra Media.",
-                "year": 1954,
-                "ISBN": "978-0618640157",
-                "author": {
-                    "name": "J.R.R. Tolkien",
-                    "otherBooks": [
-                        "El Hobbit",
-                        "El Silmarillion"
+            "id": "1",
+            "origen": "Medellin",
+            "destino": "Bogota",
+            "fecha_salida": "2023-10-10T08:00:00Z",
+            "fecha_llegada": "2023-10-10T10:30:00Z",
+            "empresa": "1",
+            "detalles_precio": {
+                "precio": 300,
+                "tarifa_basica_adultos": 250,
+                "impuesto": 25,
+                "precio_total_regular": 300,
+                "ahorro": 0.15
+            },
+            "disponibilidad": 36,
+            "transitos": 0,
+            "peso_equipaje" : "23 kg",
+            "asientos": {
+                "clase_economica": {
+                    "filas": 6,
+                    "asientos_por_fila": 6,
+                    "asientos_disponibles": [
+                        ["A1", "A2", "A3", "A4", "A5", "A6"],
+                        ["B1", "B2", "B3", "B4", "B5", "B6"],
+                        ["C1", "C2", "C3", "C4", "C5", "C6"],
+                        ["D1", "D2", "D3", "D4", "D5", "D6"],
+                        ["E1", "E2", "E3", "E4", "E5", "E6"],
+                        ["F1", "F2", "F3", "F4", "F5", "F6"]
                     ]
                 }
             }
         },
         {
-            "book": {
-                "title": "Juego de Tronos",
-                "pages": 694,
-                "genre": "Fantasía",
-                "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1273763400i/8189620.jpg",
-                "synopsis": "En un reino donde las estaciones duran años, una batalla épica por el trono se desarrolla.",
-                "year": 1996,
-                "ISBN": "978-0553103540",
-                "author": {
-                    "name": "George R. R. Martin",
-                    "otherBooks": [
-                        "Choque de Reyes",
-                        "Tormenta de Espadas",
-                        "Festín de Cuervos"
+            "id": "2",
+            "origen": "Medellin",
+            "destino": "Bogota",
+            "fecha_salida": "2023-10-10T08:00:00Z",
+            "fecha_llegada": "2023-10-10T10:30:00Z",
+            "empresa": "1",
+            "detalles_precio": {
+                "precio": 200,
+                "tarifa_basica_adultos": 250,
+                "impuesto": 25,
+                "precio_total_regular": 300,
+                "ahorro": 0.15
+            },
+            "disponibilidad": 36,
+            "transitos": 1,
+            "peso_equipaje" : "23 kg",
+            "asientos": {
+                "clase_economica": {
+                    "filas": 6,
+                    "asientos_por_fila": 6,
+                    "asientos_disponibles": [
+                        ["A1", "A2", "A3", "A4", "A5", "A6"],
+                        ["B1", "B2", "B3", "B4", "B5", "B6"],
+                        ["C1", "C2", "C3", "C4", "C5", "C6"],
+                        ["D1", "D2", "D3", "D4", "D5", "D6"],
+                        ["E1", "E2", "E3", "E4", "E5", "E6"],
+                        ["F1", "F2", "F3", "F4", "F5", "F6"]
                     ]
                 }
             }
         },
         {
-            "book": {
-                "title": "Harry Potter y la piedra filosofal",
-                "pages": 223,
-                "genre": "Fantasía",
-                "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1550337333i/15868.jpg",
-                "synopsis": "Un niño descubre que es un mago y comienza una aventura en una escuela de magia.",
-                "year": 1997,
-                "ISBN": "978-0747532699",
-                "author": {
-                    "name": "J.K. Rowling",
-                    "otherBooks": [
-                        "Harry Potter y la cámara secreta",
-                        "Harry Potter y el prisionero de Azkaban",
-                        "Harry Potter y el cáliz de fuego"
+            "id": "3",
+            "origen": "Medellin",
+            "destino": "Bogota",
+            "fecha_salida": "2023-10-10T08:00:00Z",
+            "fecha_llegada": "2023-10-10T10:30:00Z",
+            "empresa": "1",
+            "detalles_precio": {
+                "precio": 400,
+                "tarifa_basica_adultos": 250,
+                "impuesto": 25,
+                "precio_total_regular": 300,
+                "ahorro": 0.15
+            },
+            "disponibilidad": 36,
+            "transitos": 2,
+            "peso_equipaje" : "23 kg",
+            "asientos": {
+                "clase_economica": {
+                    "filas": 6,
+                    "asientos_por_fila": 6,
+                    "asientos_disponibles": [
+                        ["A1", "A2", "A3", "A4", "A5", "A6"],
+                        ["B1", "B2", "B3", "B4", "B5", "B6"],
+                        ["C1", "C2", "C3", "C4", "C5", "C6"],
+                        ["D1", "D2", "D3", "D4", "D5", "D6"],
+                        ["E1", "E2", "E3", "E4", "E5", "E6"],
+                        ["F1", "F2", "F3", "F4", "F5", "F6"]
                     ]
                 }
             }
-        },
+        }
+    ],
+    "tickets": [
         {
-            "book": {
-                "title": "1984",
-                "pages": 328,
-                "genre": "Ciencia ficción",
-                "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1657781256i/61439040.jpg",
-                "synopsis": "Una inquietante visión de un futuro distópico y totalitario.",
-                "year": 1949,
-                "ISBN": "978-0451524935",
-                "author": {
-                    "name": "George Orwell",
-                    "otherBooks": [
-                        "Rebelión en la granja"
-                    ]
-                }
-            }
-        },
+            "id": "12345",
+            "nombre": "Nombre",
+            "apellido": "Apellido",
+            "titulo": "Sr.",
+            "cumpleaños": "1990-01-15",
+            "nacionalidad": "Nacionalidad",
+            "identidad": "1234567890",
+            "numero_transporte": "ABC123",
+            "pais_emision": "País de Emisión",
+            "fecha_vencimiento_pasaporte": "2025-01-15",
+            "nombre_de_contacto": "Nombre de Contacto",
+            "apellido_de_contacto": "Apellido de Contacto",
+            "titulo_de_contacto": "Sra.",
+            "correo": "correo@example.com",
+            "numero_telefono": "+1234567890",
+            "vuelo_id": "1",
+            "fecha_compra": "2023-10-05T15:30:00Z",
+            "asiento": "A3"
+        }
+    ],
+    "metodos_de_pago": [
         {
-            "book": {
-                "title": "Apocalipsis Zombie",
-                "pages": 444,
-                "genre": "Zombies",
-                "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1422626176i/24762432.jpg",
-                "synopsis": "Un gallego se queda en casa en pleno apocalipsis zombie y acaba casi salvando el mundo",
-                "year": 2001,
-                "ISBN": "978-4444532611",
-                "author": {
-                    "name": "Manel Loreiro",
-                    "otherBooks": []
-                }
-            }
-        },
+            "tipo": "Tarjeta de Crédito",
+            "nombre_de_tarjeta": "Nombre del Titular",
+            "numero_de_tarjeta": "1234 5678 9012 3456",
+            "fecha_de_caducidad": "12/25",
+            "cvv": "123",
+            "direccion": "Calle Ejemplo, Número 123",
+            "codigo_postal": "12345",
+            "nacionalidad_del_titular": "Nacionalidad del Titular"
+        }
+    ],
+    "aerolineas": [
         {
-            "book": {
-                "title": "Dune",
-                "pages": 412,
-                "genre": "Ciencia ficción",
-                "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1555447414i/44767458.jpg",
-                "synopsis": "En el inhóspito planeta desértico de Arrakis, una gran intriga política y familiar se desarrolla.",
-                "year": 1965,
-                "ISBN": "978-0441172719",
-                "author": {
-                    "name": "Frank Herbert",
-                    "otherBooks": [
-                        "El mesías de Dune",
-                        "Hijos de Dune"
-                    ]
-                }
-            }
-        },
+            "id": 1,
+            "nombre": "Avianca",
+            "image": "data:image/png;base64,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"
+        }
+    ],
+    "user": [
         {
-            "book": {
-                "title": "La Guía del Autoestopista Galáctico",
-                "pages": 216,
-                "genre": "Ciencia ficción",
-                "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1653311117i/6691227.jpg",
-                "synopsis": "Un viaje absurdo y cómico por el espacio, con toallas.",
-                "year": 1979,
-                "ISBN": "978-0345391803",
-                "author": {
-                    "name": "Douglas Adams",
-                    "otherBooks": [
-                        "El restaurante del fin del mundo",
-                        "La vida, el universo y todo lo demás"
-                    ]
-                }
-            }
-        },
-        {
-            "book": {
-                "title": "Neuromante",
-                "pages": 271,
-                "genre": "Ciencia ficción",
-                "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1554437249i/6088007.jpg",
-                "synopsis": "Una visión profética de la ciber-realidad y la inteligencia artificial.",
-                "year": 1984,
-                "ISBN": "978-0441569595",
-                "author": {
-                    "name": "William Gibson",
-                    "otherBooks": [
-                        "Conde Cero",
-                        "Mona Lisa Acelerada"
-                    ]
-                }
-            }
-        },
-        {
-            "book": {
-                "title": "Fahrenheit 451",
-                "pages": 249,
-                "genre": "Ciencia ficción",
-                "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1383718290i/13079982.jpg",
-                "synopsis": "Una sociedad futura donde los libros están prohibidos y 'bomberos' queman cualquier libro que encuentren.",
-                "year": 1953,
-                "ISBN": "978-1451673319",
-                "author": {
-                    "name": "Ray Bradbury",
-                    "otherBooks": [
-                        "Crónicas marcianas",
-                        "El hombre ilustrado"
-                    ]
-                }
-            }
-        },
-        {
-            "book": {
-                "title": "El resplandor",
-                "pages": 688,
-                "genre": "Terror",
-                "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1641398308i/60038757.jpg",
-                "synopsis": "Una familia se muda a un hotel aislado para el invierno donde una presencia siniestra influye en el padre hacia la violencia.",
-                "year": 1977,
-                "ISBN": "978-0307743657",
-                "author": {
-                    "name": "Stephen King",
-                    "otherBooks": [
-                        "Carrie",
-                        "It"
-                    ]
-                }
-            }
-        },
-        {
-            "book": {
-                "title": "Drácula",
-                "pages": 418,
-                "genre": "Terror",
-                "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1387151694i/17245.jpg",
-                "synopsis": "La historia del infame conde Drácula y su intento de mudarse de Transilvania a Inglaterra.",
-                "year": 1897,
-                "ISBN": "978-0486411095",
-                "author": {
-                    "name": "Bram Stoker",
-                    "otherBooks": [
-                        "La joya de las siete estrellas",
-                        "La madriguera del gusano blanco"
-                    ]
-                }
-            }
-        },
-        {
-            "book": {
-                "title": "Frankenstein",
-                "pages": 280,
-                "genre": "Terror",
-                "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1669159060i/63631742.jpg",
-                "synopsis": "Un científico obsesionado crea una criatura viva a partir de partes de cuerpos robadas, con consecuencias desastrosas.",
-                "year": 1818,
-                "ISBN": "978-0486282114",
-                "author": {
-                    "name": "Mary Shelley",
-                    "otherBooks": [
-                        "El último hombre",
-                        "Valperga"
-                    ]
-                }
-            }
-        },
-        {
-            "book": {
-                "title": "La llamada de Cthulhu",
-                "pages": 43,
-                "genre": "Terror",
-                "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1485924654i/34094154.jpg",
-                "synopsis": "La historia de un monstruo ancestral que amenaza con revivir y dominar el mundo.",
-                "year": 1928,
-                "ISBN": "978-1542461690",
-                "author": {
-                    "name": "H.P. Lovecraft",
-                    "otherBooks": [
-                        "El horror de Dunwich",
-                        "En las montañas de la locura"
-                    ]
-                }
-            }
+            "id": "pablo880522",
+            "name": "Juan Pablo Contreras Ospin",
+            "password": "1234",
+            "email": "juan99@gmail.com",
+            "phone": "3105535293",
+            "date": "1999-05-08",
+            "gender": "masculino"
         }
     ]
 }
